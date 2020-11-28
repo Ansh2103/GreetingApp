@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GREETING APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="cardGenerator" href="gcard.html"
+</head>
+
+<body>
+        <div class = "container">
+            <h1>Welcome User To Greeting App</h1>
+        </div>
+       
+        <form id="newForm" name="myForm" >
+            <div>
+                <label for="fname" class="form-label">Enter Name</label>
+                <div >
+                    <input type="text" name="Fname" id="fname" placeholder="Enter  Name" required>
+                </div>
+            </div>
+            <div>
+                <label for="Message" class="form-label">Message</label>
+                <div >
+                    <input type="text" name="Message" id="message" placeholder="Enter any message" required>
+                </div>
+            </div>
+
+            <button  id="submitData" type="submit" >Submit</button>
+            <br>
+            <p >Click here to See your Greeting card <a href="gcard.html" target="_blank">
+                CARD</a>.</p>
+                
+             <!-- <div>Date : <input type="date" name="myDate"</div>                 -->
+        </form>
+       <br><br>
+       
+    </div>
+    <div id = 'cardCreator' class="main"></div>
+    <script src = "index.js"></script>
+</body>
+
+
+</html>
